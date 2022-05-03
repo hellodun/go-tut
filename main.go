@@ -72,4 +72,19 @@ func main() {
 		}
 	}
 
+	city := "Nairobi"
+
+	switch city {
+	case "Nairobi", "Lagos":
+		// Execute code for booking Nairobi or Lagos
+	case "Addis ababa", "Cairo":
+		// Execute code for booking Addis ababa or Cairo
+	case "Cape town":
+		// Execute code for booking Cape town
+	case "Arusha":
+		// Execute code for booking Arusha
+	default:
+		// Execute code if no city match
+	}
+
 }
